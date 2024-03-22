@@ -36,6 +36,7 @@ const  doSomething = () =>{
         <th>Gender</th>
         <th>Age (yrs)</th>
         <th>Weight (kg)</th>
+        <th>Details</th>
       </tr>
     </thead>
     <tbody>
@@ -47,10 +48,11 @@ const  doSomething = () =>{
         <td>{{ gender }}</td>
         <td>{{ age }}</td>
         <td>{{ weight }}</td>
-        <details>
+        <td>
+         <details>
   <summary>Details</summary>
- 
-    <table style="padding: 20px;">
+
+    <table>
      
     <tr><b>Favorite Fruit: </b>{{favouriteFruit}}</tr> 
     <tr>
@@ -64,7 +66,10 @@ const  doSomething = () =>{
     </table>
 
 
-</details>
+</details> 
+
+</td>
+
       </tr>
     </tbody>
   </table>
